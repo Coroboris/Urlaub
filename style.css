@@ -1,0 +1,42 @@
+body {
+    background-image: url(bilder/pexels-jplenio-1103970.jpg)
+    }
+p {
+    font-size: 30px;
+    }
+h1 {
+    font-size: 50px;
+    }
+a {
+    font-size: 30px;
+    }
+
+   .container {
+      display: flex;
+      gap: 20px; /* Abstand zwischen den Boxen */
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .klickbox {
+      width: 150px;
+      height: 100px;
+      background-color: #3498db;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      transform: translateX(-1000px);
+    }
+
+    .klickbox:hover {
+      background-color: #2980b9;
+    }
+  
+
+    
